@@ -10,6 +10,8 @@ function bootstrap {
   block compile pipenv
   pipenv run block compile yarn
   ln -nfs ../node_modules/.bin/bit "$shome/bin/"
+  bit config set analytics_reporting false
+  bit config set error_reporting false
 }
 
 bootstrap
