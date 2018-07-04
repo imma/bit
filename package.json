@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "bit-bin": "^0.12.13"
+    "bit-bin": "^13.0.1"
   }
 }
